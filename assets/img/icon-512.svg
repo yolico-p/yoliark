@@ -1,0 +1,35 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradientLarge" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2563eb;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#7c3aed;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="512" height="512" rx="100" fill="url(#bgGradientLarge)"/>
+  
+  <!-- Cloud icon -->
+  <g transform="translate(256, 256)" fill="white">
+    <path d="M-100,-25 
+             C-100,-65 -70,-100 -30,-100 
+             C-12,-100 5,-92 20,-80 
+             C35,-105 70,-120 105,-105 
+             C135,-92 155,-60 148,-20 
+             C180,-12 200,20 192,60 
+             C184,95 145,115 110,102 
+             C100,130 75,150 45,150 
+             L-60,150 
+             C-90,150 -120,125 -120,95 
+             C-120,80 -115,65 -105,55 
+             C-125,45 -135,20 -125,-5 
+             C-118,-20 -100,-30 -85,-25 
+             C-95,-12 -100,5 -92,22 
+             C-84,38 -65,45 -45,40 
+             C-30,35 -20,20 -25,2 
+             C-30,-15 -48,-22 -65,-18 
+             C-80,-15 -95,-5 -100,10 
+             C-108,2 -112,-10 -100,-25 Z" 
+          opacity="0.95"/>
+  </g>
+</svg>

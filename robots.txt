@@ -1,0 +1,42 @@
+# Robots.txt for 柚舟Cloud
+# Block all search engines from indexing this site
+
+User-agent: *
+Disallow: /
+Disallow: /index.php
+Disallow: /api/
+Disallow: /assets/
+Disallow: /data/
+Disallow: /storage/
+Disallow: /install.php
+
+# Specifically block major search engines
+User-agent: Googlebot
+Disallow: /
+
+User-agent: Googlebot-Image
+Disallow: /
+
+User-agent: Bingbot
+Disallow: /
+
+User-agent: Baiduspider
+Disallow: /
+
+User-agent: YandexBot
+Disallow: /
+
+User-agent: DuckDuckBot
+Disallow: /
+
+User-agent: Slurp
+Disallow: /
+
+User-agent: Sogou
+Disallow: /
+
+User-agent: Exabot
+Disallow: /
+
+User-agent: facebot
+Disallow: /

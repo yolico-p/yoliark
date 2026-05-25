@@ -1,0 +1,53 @@
+{
+  "name": "柚舟Cloud",
+  "short_name": "柚舟Cloud",
+  "description": "安全高效的个人云端存储",
+  "start_url": "/index.php",
+  "display": "standalone",
+  "background_color": "#f8fafc",
+  "theme_color": "#2563eb",
+  "orientation": "any",
+  "scope": "/",
+  "icons": [
+    {
+      "src": "assets/img/icon-192.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "assets/img/icon-512.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["productivity", "utilities"],
+  "shortcuts": [
+    {
+      "name": "全部文件",
+      "short_name": "文件",
+      "description": "浏览全部文件",
+      "url": "/index.php?page=files",
+      "icons": [{"src": "assets/img/icon-192.svg", "sizes": "192x192"}]
+    },
+    {
+      "name": "我的收藏",
+      "short_name": "收藏",
+      "description": "查看收藏的文件",
+      "url": "/index.php?page=favorites",
+      "icons": [{"src": "assets/img/icon-192.svg", "sizes": "192x192"}]
+    },
+    {
+      "name": "上传文件",
+      "short_name": "上传",
+      "description": "上传新文件",
+      "url": "/index.php?page=files",
+      "icons": [{"src": "assets/img/icon-192.svg", "sizes": "192x192"}]
+    }
+  ],
+  "screenshots": [],
+  "prefer_related_applications": false,
+  "related_applications": [],
+  "handle_links": "preferred"
+}
